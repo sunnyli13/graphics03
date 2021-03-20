@@ -131,8 +131,8 @@ void parse_file ( char * filename,
 
     else if (!strcmp(line, "display")) {
       color c;
-      c.red = 255;
-      c.green = 0;
+      c.red = 0;
+      c.green = 255;
       c.blue = 0;
 
       clear_screen(s);
